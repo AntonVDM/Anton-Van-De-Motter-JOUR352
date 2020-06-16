@@ -17,4 +17,14 @@ Body {
   margin-top: 20px;
   margin-left: 0;
   margin-right: 0;
+  width: 70%;
+  min-width: 300px;
+}
+
+.jobtitle {
+
+}
+
+.organization {
+  font-size:  1.25em
 }
