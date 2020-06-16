@@ -5,6 +5,9 @@ Body {
 #name {
   color: #33485e;
   font-size: 36px;
+  border-bottom: 1px solid #33485e;
+  width: 60%;
+  min-width: 300px;
 }
 
 #experience {
