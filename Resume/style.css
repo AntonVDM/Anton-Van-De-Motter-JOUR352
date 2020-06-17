@@ -1,5 +1,10 @@
-Body {
+/* Styles for my resume */
 
+Body {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #444;
+  font-weight: 400;
 }
 
 #container {
@@ -8,9 +13,12 @@ Body {
   margin: 0 auto;
   padding-bottom: 50px;
 }
+
+/* Banner name at top */
 #name {
   color: #33485e;
-  font-size: 36px;
+  font-size: 3em;
+  text-transform: uppercase;
   border-bottom: 1px solid #33485e;
   width: 60%;
   min-width: 300px;
@@ -18,56 +26,94 @@ Body {
   text-align: center;
 }
 
+/* Occupation */
 #title {
+  color: #33485e;
+  text-transform: uppercase;
+  font-size: 1.5em;
   font-weight: 600;
   text-align: center;
+  margin-top: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Education */
+#degrees {
+  font-size: 1em;
   margin-top: 5px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 
+/* Skill list */
+#do {
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+/* Contact info */
 .menu {
+  font-size: 1em;
   margin: 0px;
   padding: 0px;
   text-align: center;
 }
 
+.menu li{
+  display: inline;
+}
+
+/* Section titles */
 .sectionheader {
-  margin-bottom: 10px;
+  background-color: #33485e;
+  color: #fff;
+  text-transform: uppercase;
+  font-size: 1.5em;
+  font-weight: 400;
   margin-top: 20px;
+  margin-bottom: 10px;
   margin-left: 0;
   margin-right: 0;
   width: 70%;
   min-width: 300px;
+  padding-left: 20px;
 }
 
+/* Job positions */
 .jobtitle {
-
+  font-weight: 600;
+  font-size: 1.5em;
 }
 
+/* Job organizations */
 .organization {
+  font-weight: 400;
   font-size:  1.25em
 }
 
+/* Dates worked */
 .date {
+  font-weight: 400;
+  font-style: italic;
+  font-size: 1em;
   margin-top: 2px;
   margin-bottom: 0px;
   margin-left: 0px;
   margin-right: 0px;
 }
 
+/* Job descriptions */
 .description {
   margin: 10px 0px;
 }
 
-.degrees {
-  margin-top: 5px;
-  margin-bottom: 0px;
-  margin-left: 0px;
-  margin-right: 0px;
-}
-
+/* Mission statement */
 .top {
   width: 60%;
   min-width: 300px;
