@@ -1,4 +1,59 @@
+Body {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 13px;
+  color: #000000;
+  font-weight: 400;
+}
 #content {
   width: 900px;
   margin: 0 auto;
+}
+
+h1 {
+  font-family: Helvetica, sans-serif;;
+  font-size: 3em;
+
+}
+
+h2 {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  font-style: italic;
+}
+ p {
+   font-family: Georgia, "Times New Roman," Times, serif;
+   font-size: 13px;
+ }
+
+img {
+  width: 100%;
+  z-index: 0;
+  margin: 0 auto;
+  border: 1px solid #000000;
+}
+
+figcaption {
+  font-size: 11px;
+  color: 	#444;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+blockquote {
+  font-size: 2em;
+  font-style: italic;
+  margin: 50px;
+  padding: 15px;
+  border-left: 1px solid #000000;
+  text-align: left;
+}
+
+.stories {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+.quote {
+  font-size: .75em;
+  font-style: normal;
+  padding-top: 15px;
 }
