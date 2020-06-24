@@ -1,0 +1,91 @@
+Body {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  color: #000000;
+  font-weight: 400;
+}
+
+#content {
+  width: 100%;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding-bottom: 40px;
+  line-height: 1.5;
+}
+
+h1 {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 2.5em;
+}
+
+#subhead {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1.5em;
+  font-weight: 600;
+}
+
+#byline {
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-size: 1em;
+}
+
+p {
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 12px;
+  width: 1000px;
+  text-align:justify;
+  display: block;
+}
+
+.name {
+  font-weight: 600;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 20px;
+  margin: 0 auto;
+  text-align:center;
+  padding-top: 5px;
+  padding-bottom: 5px;
+  color: #B22222;
+  border-top: 1px solid #000000;
+  border-bottom: 1px solid #000000;
+  width: 250px;
+}
+
+.info {
+  list-style-type: none;
+  padding-top: 10px;
+  padding-left: 0;
+  padding-right: 0;
+  padding-bottom: 0;
+  margin: 0 auto;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 14px;
+  text-align: center;
+  width: 250px;
+}
+
+.image {
+  width: 1000px;
+  margin: 0 auto;
+  padding-top: 10px;
+}
+
+figcaption {
+  font-size: 10px;
+  color: 	#444;
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
+
+blockquote {
+  color: #B22222;
+  font-size: 2em;
+  font-family: Georgia, "Times New Roman", Times, serif;
+  font-style: italic;
+  width: 1000px;
+  text-align: center;
+  margin: 0 auto;
+  padding: 10px 0px;
+  border-top: 3px solid	#FFA500;
+  border-bottom: 3px solid	#FFA500;
+}
