@@ -3,6 +3,7 @@ Body {
   font-size: 14px;
   color: #000000;
   font-weight: 400;
+  background-image: linear-gradient(#FFFFFF, #969696, #FF8C00);
 }
 
 .banner {
@@ -21,9 +22,12 @@ Body {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
-  padding-top: 250px;
+  padding-top: 150px;
   padding-bottom: 40px;
+  padding-left:15px;
+  padding-right: 15px;
   line-height: 1.5;
+  background-color: #FFFFFF;
 }
 
 h1 {
@@ -102,4 +106,10 @@ blockquote {
   padding: 10px 0px;
   border-top: 3px solid	#FFA500;
   border-bottom: 3px solid	#FFA500;
+}
+
+.related {
+  list-style-type: none;
+  padding-left: 20;
+  margin: 0;
 }
