@@ -5,10 +5,23 @@ Body {
   font-weight: 400;
 }
 
+.banner {
+  margin: 0 auto;
+  text-align: center;
+  display: block;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  width: 100%;
+  height: auto;
+  opacity: .9;
+}
 #content {
   width: 100%;
   max-width: 1000px;
   margin: 0 auto;
+  padding-top: 250px;
   padding-bottom: 40px;
   line-height: 1.5;
 }
@@ -16,6 +29,7 @@ Body {
 h1 {
   font-family: Georgia, "Times New Roman", Times, serif;
   font-size: 2.5em;
+  width:100%;
 }
 
 #subhead {
