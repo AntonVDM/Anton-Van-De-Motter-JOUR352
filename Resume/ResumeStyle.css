@@ -1,0 +1,195 @@
+/* Styles for my resume */
+
+Body {
+  font-family: 'Open Sans', arial, sans-serif;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 400;
+}
+
+.banner {
+  width: 100%;
+  height: auto;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+}
+
+/* Banner name at top */
+#name {
+  color: #000000;
+  font-size: 3em;
+  text-transform: uppercase;
+  border-bottom: 1px solid #000000;
+  width: 100%;
+  max-width: 600px;
+  margin: 0;
+  text-align: left;
+}
+
+/* Occupation */
+#title {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 1em;
+  font-weight: 600;
+  text-align: left;
+  margin: 0 auto;
+  margin-top: 15px;
+}
+
+#Experience {
+  background-color: #FAF8D4;
+  width: 100%;
+  padding-bottom: 20px;
+}
+/* Education */
+#Education {
+  background-color: #F4A4A6;
+  padding-bottom: 20px;
+}
+
+#degrees {
+  font-size: 1em;
+}
+
+/* Skill list */
+#Skills {
+  background-color: #FAF8D4;
+  padding-bottom: 20px;
+}
+
+#Work {
+  padding-bottom: 20px;
+}
+#do {
+  font-size: 1em;
+  margin-top: 5px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  margin-right: 0px;
+}
+
+.jumbotron {
+  width: 100%;
+  background-color: #FFFFFF;
+}
+/* Contact info */
+.menu {
+  font-size: 1em;
+  margin: 0 auto;
+  padding: 0px;
+  text-align: center;
+}
+
+.menu li{
+  display: inline;
+}
+
+.photo {
+  display: grid;
+  margin: 0 auto;
+  margin-top: -25%;
+  margin-right: -5%;
+  height: 400px;
+  width: auto;
+  float:center;
+}
+
+.photo-cropper {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    overflow: hidden;
+    border-radius: 50%;
+    float:center;
+    border: 1px solid #000000;
+}
+
+/* Section titles */
+.sectionheader {
+  color: #000000;
+  text-transform: uppercase;
+  font-size: 2em;
+  font-weight: 600;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-left: 20px;
+  margin-right: 0;
+  width: 70%;
+  max-width: 500px;
+  padding-left: 20px;
+  border-bottom: 1px solid #000000;
+}
+
+/* Job positions */
+.jobtitle {
+  font-weight: 600;
+  font-size: 1.5em;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Job organizations */
+.organization {
+  font-weight: 400;
+  font-size:  .75em;
+  margin: 10px;
+  text-align: center;
+}
+
+/* Dates worked */
+.date {
+  font-weight: 400;
+  font-size: 1em;
+  text-align: center;
+  border-radius: 100%;
+  width: 100px;
+  height: 100px;
+  display: block;
+  margin: 0 auto;
+  padding-top: 40%;
+}
+
+/* Job descriptions */
+#description {
+  margin: 20px;
+  display: none;
+}
+button {
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 100%;
+  border-color: #000000;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  vertical-align: middle;
+  background-color: #F4A4A6;
+}
+button:hover + div#description {
+  display: block;
+  width: 100%;
+}
+
+.major {
+  text-align: center;
+}
+
+/* Mission statement */
+.top {
+  width: 60%;
+  min-width: 300px;
+  margin: 0;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.samples {
+  padding: 20px;
+  text-align: center;
+}
