@@ -193,3 +193,8 @@ button:hover + div#description {
   padding: 20px;
   text-align: center;
 }
+.samplehead {
+  font-weight: 600;
+  font-size: 1.5em;
+  padding-bottom: 20px;
+}
