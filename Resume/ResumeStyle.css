@@ -45,7 +45,7 @@ Body {
 #Experience {
   background-color: #FAF8D4;
   width: 100%;
-  padding-bottom: 20px;
+  padding: 20px;
 }
 /* Education */
 #Education {
@@ -64,6 +64,7 @@ Body {
 }
 
 #Work {
+  background-color: #F4A4A6;
   padding-bottom: 100px;
 }
 #do {
@@ -122,6 +123,7 @@ Body {
   margin-right: 0;
   width: 70%;
   max-width: 500px;
+  padding-top: 20px;
   padding-left: 20px;
   border-bottom: 1px solid #000000;
 }
@@ -152,15 +154,16 @@ Body {
   height: 100px;
   display: block;
   margin: 0 auto;
-  padding-top: 40%;
+  padding-top: 30%;
 }
 
 /* Job descriptions */
 #description {
   margin: 20px;
   display: none;
+  padding: 20px;
 }
-button {
+.btn-outline-primary {
   text-align: center;
   margin: 0 auto;
   border-radius: 100%;
@@ -170,10 +173,12 @@ button {
   display: flex;
   vertical-align: middle;
   background-color: #F4A4A6;
+  color: #000000;
 }
-button:hover + div#description {
+.btn-outline-primary:hover + div#description {
   display: block;
   width: 100%;
+  padding: 20px;
 }
 
 .major {
@@ -197,4 +202,35 @@ button:hover + div#description {
   font-weight: 600;
   font-size: 1.5em;
   padding-bottom: 20px;
+}
+
+.skill {
+  text-align: center;
+  display: block;
+  vertical-align: middle;
+  padding-top: 30%;
+
+}
+
+.btn-outline-secondary {
+  text-align: center;
+  margin: 0 auto;
+  border-radius: 100%;
+  border-color: #000000;
+  width: 100px;
+  height: 100px;
+  display: flex;
+  vertical-align: middle;
+  background-color: #FAF8D4;
+  color: #000000;
+}
+
+.btn-outline-secondary:hover + div.skilldes{
+  display: block;
+  width: 100%;
+  padding: 20px;
+}
+
+.skilldes {
+  display: none;
 }
