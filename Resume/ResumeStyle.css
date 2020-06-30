@@ -49,7 +49,7 @@ Body {
 #Experience {
   background-color: #FAF8D4;
   width: 100%;
-  padding-bottom: 20px;
+  padding-bottom: 50px;
   padding-right: 20px;
 }
 /* Education */
@@ -64,7 +64,7 @@ Body {
 /* Skill list */
 #Skills {
   background-color: #FAF8D4;
-  padding-bottom: 20px;
+  padding-bottom: 60px;
 }
 
 #Work {
@@ -121,7 +121,7 @@ Body {
   font-size: 2em;
   font-weight: 600;
   margin-top: 20px;
-  margin-bottom: 20px;
+  margin-bottom: 35px;
   margin-left: 20px;
   margin-right: 0;
   width: 70%;
