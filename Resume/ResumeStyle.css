@@ -12,6 +12,10 @@ Body {
   height: auto;
 }
 
+.navbar-custom {
+    background-color: #800000; 
+}
+
 #container {
   width: 100%;
   max-width: 1200px;
@@ -141,6 +145,7 @@ Body {
   font-size:  .75em;
   margin: 10px;
   text-align: center;
+  padding-bottom: 20px;
 }
 
 /* Dates worked */
@@ -260,6 +265,11 @@ Body {
 
 .skilldes {
   display: none;
+}
+
+audio {
+  border: 1px solid #800000;
+  background-color: #800000;
 }
 
 footer {
