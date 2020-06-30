@@ -13,7 +13,7 @@ Body {
 }
 
 .navbar-custom {
-    background-color: #800000; 
+    background-color: #800000;
 }
 
 #container {
@@ -277,4 +277,15 @@ footer {
   padding-top: 50px;
   position: sticky;
   background-color: #FAF8D4;
+}
+
+.share {
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.share li {
+  display: inline;
 }
