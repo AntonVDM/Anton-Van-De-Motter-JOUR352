@@ -53,34 +53,15 @@
   </nav>
 
 
-<div class="jumbotron">
- <h1 class="display-4">Hello, world!</h1>
- <p class="lead">This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
- <hr class="my-4">
- <p>It uses utility classes for typography and spacing to space content out within the larger container.</p>
- <a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a>
 </div>
 
-
 <div class="container">
-        <div class="row">
+  <iframe title="Baltimore has more than its share of heat-related deaths in Maryland" aria-label="Interactive line chart" id="datawrapper-chart-m8tqd" src="https://datawrapper.dwcdn.net/m8tqd/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="802"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
 
-                <div class="col-md-4">
-                        <h3>Heading 1</h3>
-                        <p>Donec id elit non mi porta gravida at eget metus. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                </div>
+<iframe title="Projected number of extreme heat events in Maryland for the year 2040" aria-label="map" id="datawrapper-chart-9nAuO" src="https://datawrapper.dwcdn.net/9nAuO/1/" scrolling="no" frameborder="0" style="width: 0; min-width: 100% !important; border: none;" height="407"></iframe><script type="text/javascript">!function(){"use strict";window.addEventListener("message",(function(a){if(void 0!==a.data["datawrapper-height"])for(var e in a.data["datawrapper-height"]){var t=document.getElementById("datawrapper-chart-"+e)||document.querySelector("iframe[src*='"+e+"']");t&&(t.style.height=a.data["datawrapper-height"][e]+"px")}}))}();
+</script>
 
-
-                <div class="col-md-4">
-                        <h3>Heading 2</h3>
-                        <p>Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. Lorem ipsum dolor.</p>
-                </div>
-
-                <div class="col-md-4">
-                        <h3>Heading 3</h3>
-                        <p>Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-                </div>
-        </div>
 </div>
 
 
