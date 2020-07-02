@@ -1,0 +1,15 @@
+Body {
+  font-family: Helvetica, arial, sans-serif;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+}
