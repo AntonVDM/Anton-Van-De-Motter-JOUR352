@@ -16,7 +16,7 @@ Body {
 }
 
 h1 {
-  text-align: center;
+  text-align: left;
   padding-top: 20px;
   padding-bottom: 20px;
 }
@@ -26,7 +26,7 @@ h2 {
 }
 
 #byline {
-  text-align: center;
+  text-align: left;
 }
 
 footer {
@@ -40,11 +40,12 @@ footer {
 }
 
 img {
-  text-align: center;
+  text-align: left;
+  display: block;
 }
 
 figcaption {
-  text-align: center;
+  text-align: left;
   padding-top: 15px;
   padding-bottom: 20px;
   color: #444;
