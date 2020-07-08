@@ -163,3 +163,52 @@ blockquote {
   padding-top: 50px;
   border-top: 1px solid #FAA916;
 }
+.scroll-graphic {
+  position: -webkit-sticky;
+  position: sticky;
+  top:150px;
+  height: 100vh;
+}
+
+.step {
+  padding: 2rem;
+  height: 100vh;
+}
+
+.scroll-graphic-tab{
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.col-graphic{
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
+
+.scroll-graphic2 {
+  position: -webkit-sticky;
+  position: sticky;
+  top:100px;
+  height: 100vh;
+}
+
+.step2 {
+  padding: 2rem;
+  height: 100vh;
+}
+
+.scroll-graphic-tab2 {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+
+
+.col-graphic2 {
+  position: -webkit-sticky;
+  position: sticky;
+  bottom: 0;
+  background-color: white;
+}
