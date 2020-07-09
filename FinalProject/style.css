@@ -172,15 +172,15 @@ footer {
 .carousel-caption {
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 12px;
-  bottom: 45px;
+  bottom: 3rem;
+  z-index: 10;
   background-color: #808080;
   padding-left: 15px;
   padding-right: 15px;
   padding-top: 0px;
-  padding-bottom: 50px;
-  margin-bottom: 10px;
   height: 80px;
   opacity: .8;
+  display: block;
 }
 
 .carousel-item {
@@ -261,6 +261,15 @@ footer {
   .hero-sub {
     font-size: .5em;
   }
+
+  .carousel-item {
+    height: 250px;
+  }
+
+  .carousel-caption {
+    font-size: 5px;
+    height: 50px;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
@@ -283,6 +292,15 @@ footer {
     margin: 0 auto;
 
   }
+
+  .carousel-item {
+    height: 300px;
+  }
+
+  .carousel-caption {
+    font-size: 7px;
+    height: 65px;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -302,6 +320,15 @@ footer {
     width: 100%;
     max-width: 768px;
     margin: 0 auto;
+  }
+
+  .carousel-item {
+    height: 400px;
+  }
+
+  .carousel-caption {
+    font-size: 10px;
+    height: 75px;
   }
 }
 
@@ -323,6 +350,15 @@ footer {
     max-width: 992px;
     margin: 0 auto;
   }
+
+  .carousel-item {
+    height: 500px;
+  }
+
+  .carousel-caption {
+    font-size: 12px;
+    height: 80px;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -342,4 +378,14 @@ footer {
     max-width: 1200px;
     margin: 0 auto;
   }
+
+  .carousel-item {
+    height: 600px;
+  }
+
+  .carousel-caption {
+    font-size: 12px;
+    height: 80px;
+  }
+
 }
