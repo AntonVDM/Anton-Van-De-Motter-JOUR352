@@ -17,27 +17,33 @@ Body {
 }
 
 #unemployment {
-  text-align: left;
+  text-align: center;
   padding-top: 20px;
+  padding-bottom: 15px;
   font-family: "Montserrat",Arial,sans-serif;
-  font-size: 2em;
+  font-size: 2.25em;
   font-weight: bold;
+  border-bottom: 3px solid #B4041E;
 }
 
 #healthcare {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 15px;
   font-family: "Montserrat",Arial,sans-serif;
-  font-size: 2em;
+  font-size: 2.25em;
   font-weight: bold;
+  border-bottom: 3px solid #B4041E;
 }
 
 #work {
   text-align: center;
   padding-top: 20px;
+  padding-bottom: 15px;
   font-family: "Montserrat",Arial,sans-serif;
-  font-size: 2em;
+  font-size: 2.25em;
   font-weight: bold;
+  border-bottom: 3px solid #B4041E;
 }
 
 .hero-container {
@@ -81,7 +87,7 @@ Body {
   padding-top: 30px;
   padding-bottom: 20px;
   font-family: "Montserrat",Arial,sans-serif;
-  font-size: 2.25em;
+  font-size: 2.5em;
   font-weight: bold;
 }
 
@@ -90,13 +96,14 @@ Body {
   text-align: left;
   padding-bottom: 20px;
   font-family: "Montserrat",Arial,sans-serif;
-  font-size: 1.25em;
+  font-size: 1.5em;
 }
 
 p {
   text-align: left;
-  padding: 15px 0px;
+  padding: 20px 0px;
   width: 100%;
+  font-size: 1.25em;
 }
 
 img {
@@ -107,10 +114,11 @@ img {
 
 figcaption {
   text-align: left;
-  padding-top: 15px;
+  padding-top: 10px;
   padding-bottom: 20px;
   color: #444;
   font-style: italic;
+  font-size: 14px;
 }
 
 .map {
@@ -120,16 +128,13 @@ figcaption {
 }
 
 blockquote {
-  border-top: 1px solid #96031A;
-  border-bottom: 1px solid #96031A;
+  border-top: 2px solid #B4041E;
+  border-bottom: 2px solid #B4041E;
   width: 100%;
+  font-size: 2em;
   text-align: center;
-  vertical-align: middle;
-  padding-right: -15px;
-  margin-right: -20px;
-  margin-bottom: -40px;
-  margin-top: 25px;
-  margin-left: 20px;
+  padding: 30px;
+  margin-top: 30px;
 }
 
 .sources {
@@ -164,9 +169,14 @@ footer {
 
 .carousel-caption {
   font-family: "Montserrat",Arial,sans-serif;
-  bottom: 15px;
+  font-size: 12px;
+  bottom: 45px;
   background-color: #808080;
-  padding: 5px 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  padding-top: 0px;
+  padding-bottom: 50px;
+  margin-bottom: 10px;
   height: 80px;
   opacity: .8;
 }
