@@ -252,16 +252,24 @@ footer {
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
   .overlay {
-    height: 200px;
+    height: 100px;
   }
   .hero-hed {
-    font-size: 2em;
+    font-size: 1.5em;
+    margin-top: -75px;
   }
 
   .hero-sub {
     font-size: .5em;
+    padding-top: -100px;
   }
 
+  #container {
+    width: 100%;
+    max-width: 400px;
+    margin: 0 auto;
+
+  }
   .carousel-item {
     height: 250px;
   }
@@ -270,16 +278,27 @@ footer {
     font-size: 5px;
     height: 50px;
   }
+
+  .step {
+    padding: 1rem;
+    height: 60vh;
+  }
+
+  .step2 {
+    padding: 1rem;
+    height: 60vh;
+  }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
 
   .overlay {
-    height: 100px;
+    height: 150px;
   }
   .hero-hed {
     font-size: 2em;
+    margin: -50px;
   }
 
   .hero-sub {
@@ -301,6 +320,16 @@ footer {
     font-size: 7px;
     height: 65px;
   }
+
+  .step {
+    padding: 1rem;
+    height: 60vh;
+  }
+
+  .step2 {
+    padding: 1rem;
+    height: 60vh;
+  }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
@@ -311,6 +340,7 @@ footer {
 
   .hero-hed {
     font-size: 3em;
+    margin-top: 0;
   }
 
   .hero-sub {
@@ -330,6 +360,16 @@ footer {
     font-size: 10px;
     height: 75px;
   }
+
+  .step {
+    padding: 1.5rem;
+    height: 75vh;
+  }
+
+  .step2 {
+    padding: 1.5rem;
+    height: 75vh;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -339,6 +379,7 @@ footer {
   }
   .hero-hed {
     font-size: 5em;
+    margin-top: 0;
   }
 
   .hero-sub {
@@ -359,6 +400,16 @@ footer {
     font-size: 12px;
     height: 80px;
   }
+
+  .step {
+    padding: 2rem;
+    height: 100vh;
+  }
+
+  .step2 {
+    padding: 2rem;
+    height: 100vh;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -368,6 +419,7 @@ footer {
   }
   .hero-hed {
     font-size: 6em;
+    margin-top: 0;
   }
 
   .hero-sub {
@@ -386,6 +438,16 @@ footer {
   .carousel-caption {
     font-size: 12px;
     height: 80px;
+  }
+
+  .step {
+    padding: 2rem;
+    height: 100vh;
+  }
+
+  .step2 {
+    padding: 2rem;
+    height: 100vh;
   }
 
 }
