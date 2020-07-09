@@ -132,14 +132,16 @@ figcaption {
 }
 
 blockquote {
-  border-top: 2px solid #B4041E;
-  border-bottom: 2px solid #B4041E;
+  border-top: 3px solid #B4041E;
+  border-bottom: 3px solid #B4041E;
   width: 100%;
   font-size: 2em;
+  font-style: italic;
+  line-height: 1.5em;
   text-align: center;
   padding: 30px;
   margin-top: 30px;
-  padding right: 40px;
+  padding right: 50px;
 }
 
 .sources {
