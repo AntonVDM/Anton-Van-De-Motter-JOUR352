@@ -149,6 +149,13 @@ blockquote {
   border-top: 1px solid #FAA916;
 }
 
+.related {
+  list-style-type: none;
+  padding-left: 20;
+  margin: 0;
+  text-align: left;
+}
+
 .share {
   margin: 0 auto;
   padding-top: 5px;
