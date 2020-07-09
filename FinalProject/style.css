@@ -265,6 +265,7 @@ footer {
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
+
   .overlay {
     height: 100px;
   }
@@ -274,6 +275,13 @@ footer {
 
   .hero-sub {
     font-size: .5em;
+  }
+
+  #container {
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+
   }
 }
 
@@ -290,6 +298,11 @@ footer {
   .hero-sub {
     font-size: .5em;
   }
+  #container {
+    width: 100%;
+    max-width: 768px;
+    margin: 0 auto;
+  }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
@@ -304,6 +317,12 @@ footer {
   .hero-sub {
     font-size: .5em;
   }
+
+  #container {
+    width: 100%;
+    max-width: 992px;
+    margin: 0 auto;
+  }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
@@ -317,5 +336,10 @@ footer {
 
   .hero-sub {
     font-size: .5em;
+  }
+  #container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
   }
 }
