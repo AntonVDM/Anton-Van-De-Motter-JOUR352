@@ -19,7 +19,8 @@ Body {
 #unemployment {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
@@ -28,8 +29,9 @@ Body {
 
 #healthcare {
   text-align: center;
-  padding-top: 20px;
-  padding-bottom: 15px;
+  padding: 20px auto;
+  padding-bottom: 20px;
+  margin-bottom: 5px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
@@ -39,7 +41,8 @@ Body {
 #work {
   text-align: center;
   padding-top: 20px;
-  padding-bottom: 15px;
+  padding-bottom: 20px;
+  margin-bottom: 15px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.25em;
   font-weight: bold;
@@ -83,19 +86,19 @@ Body {
   background-color: #5C6672;
   color: #FFF;
 }
+
 #introduction{
   text-align: left;
-  padding-top: 30px;
-  padding-bottom: 20px;
+  padding-top: 45px;
+  padding-bottom: 25px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 2.5em;
   font-weight: bold;
 }
 
-
 #byline {
   text-align: left;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
   font-family: "Montserrat",Arial,sans-serif;
   font-size: 1.5em;
 }
@@ -136,6 +139,7 @@ blockquote {
   text-align: center;
   padding: 30px;
   margin-top: 30px;
+  padding right: 40px;
 }
 
 .sources {
@@ -268,8 +272,12 @@ footer {
     width: 100%;
     max-width: 400px;
     margin: 0 auto;
-
   }
+
+  blockquote  {
+    font-size: 2em;
+  }
+
   .carousel-item {
     height: 250px;
   }
@@ -309,7 +317,10 @@ footer {
     width: 100%;
     max-width: 600px;
     margin: 0 auto;
+  }
 
+  blockquote  {
+    font-size: 2em;
   }
 
   .carousel-item {
@@ -352,6 +363,10 @@ footer {
     margin: 0 auto;
   }
 
+  blockquote  {
+    font-size: 1.5em;
+  }
+
   .carousel-item {
     height: 400px;
   }
@@ -392,6 +407,10 @@ footer {
     margin: 0 auto;
   }
 
+  blockquote  {
+    font-size: 2em;
+  }
+
   .carousel-item {
     height: 500px;
   }
@@ -429,6 +448,10 @@ footer {
     width: 100%;
     max-width: 1200px;
     margin: 0 auto;
+  }
+
+  blockquote  {
+    font-size: 2em;
   }
 
   .carousel-item {
