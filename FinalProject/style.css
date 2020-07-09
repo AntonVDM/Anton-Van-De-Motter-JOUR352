@@ -52,6 +52,7 @@ Body {
   color: #FFFFFF;
   display: block;
 }
+
 .hero-image{
   width: 100%;
 }
@@ -245,3 +246,76 @@ footer {
   background-color: white;
 }
 /* End graphic 2 */
+
+/* Media queries */
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .overlay {
+    height: 200px;
+  }
+  .hero-hed {
+    font-size: 2em;
+  }
+
+  .hero-sub {
+    font-size: .5em;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+  .overlay {
+    height: 200px;
+  }
+  .hero-hed {
+    font-size: 2em;
+  }
+
+  .hero-sub {
+    font-size: .5em;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .overlay {
+    height: 300px;
+  }
+
+  .hero-hed {
+    font-size: 3em;
+  }
+
+  .hero-sub {
+    font-size: .5em;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+  .overlay {
+    height: 400px;
+  }
+  .hero-hed {
+    font-size: 5em;
+  }
+
+  .hero-sub {
+    font-size: .5em;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+  .overlay {
+    height: 500px;
+  }
+  .hero-hed {
+    font-size: 6em;
+  }
+
+  .hero-sub {
+    font-size: .5em;
+  }
+}
