@@ -163,6 +163,7 @@ footer {
   margin-top: 50px;
 }
 
+/* Carousel based on Bootstrap template */
 .carousel {
   margin-bottom: 4rem;
 }
@@ -191,7 +192,9 @@ footer {
   min-width: 100%;
   height: auto;
 }
+/* End carousel */
 
+/* Scrolling graphic and text based on Code Red */
 .scroll-graphic {
   position: -webkit-sticky;
   position: sticky;
@@ -209,14 +212,15 @@ footer {
   padding-bottom: 15px;
 }
 
-
 .col-graphic{
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   background-color: white;
 }
+/* End graphic 1 */
 
+/* Scroll graphic 2 */
 .scroll-graphic2 {
   position: -webkit-sticky;
   position: sticky;
@@ -234,10 +238,10 @@ footer {
   padding-bottom: 15px;
 }
 
-
 .col-graphic2 {
   position: -webkit-sticky;
   position: sticky;
   bottom: 0;
   background-color: white;
 }
+/* End graphic 2 */
