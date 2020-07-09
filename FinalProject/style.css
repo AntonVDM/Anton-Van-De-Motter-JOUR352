@@ -1,6 +1,6 @@
 
 Body {
-  font-family: Helvetica, arial, sans-serif;
+  font-family: "PT Serif","Times New Roman", Times, serif;
   font-size: 1em;
   color: #000000;
   font-weight: 400;
@@ -13,11 +13,13 @@ Body {
   margin: 0 auto;
   padding-bottom: 50px;
   text-align: center;
+  line-height: 2.5em;
 }
 
 #unemployment {
   text-align: left;
   padding-top: 20px;
+  font-family: "Montserrat",Arial,sans-serif;
   font-size: 2em;
   font-weight: bold;
 }
@@ -25,6 +27,7 @@ Body {
 #healthcare {
   text-align: center;
   padding-top: 20px;
+  font-family: "Montserrat",Arial,sans-serif;
   font-size: 2em;
   font-weight: bold;
 }
@@ -32,6 +35,7 @@ Body {
 #work {
   text-align: center;
   padding-top: 20px;
+  font-family: "Montserrat",Arial,sans-serif;
   font-size: 2em;
   font-weight: bold;
 }
@@ -56,7 +60,7 @@ Body {
 }
 
 .hero-hed {
-  font-family: Arial,sans-serif;
+  font-family: "Montserrat",Arial,sans-serif;
   font-size: 6em;
   color: #fff;
   margin: 0 auto;
@@ -64,7 +68,7 @@ Body {
 }
 
 .hero-sub {
-  font-family: Arial, sans-serif;
+  font-family: "Montserrat",Arial,sans-serif;
   font-size: .5em;
 }
 
@@ -76,7 +80,8 @@ Body {
   text-align: left;
   padding-top: 30px;
   padding-bottom: 20px;
-  font-size: 2.5em;
+  font-family: "Montserrat",Arial,sans-serif;
+  font-size: 2.25em;
   font-weight: bold;
 }
 
@@ -84,41 +89,14 @@ Body {
 #byline {
   text-align: left;
   padding-bottom: 20px;
+  font-family: "Montserrat",Arial,sans-serif;
   font-size: 1.25em;
 }
 
-#mycarousel {
-
-}
-
-.carousel {
-  margin-bottom: 4rem;
-}
-
-.carousel-caption {
-  bottom: 3rem;
-  z-index: 10;
-}
-
-.carousel-item {
-  height: 600px;
-}
-.carousel-item > img {
-  position: absolute;
-  top: 0;
-  left: 0;
-  min-width: 100%;
-  height: auto;
-}
-
-footer {
-  text-align: center;
-  background-color: #000000;
-  color: #FFFFFF;
-  padding-top: 50px;
-  padding-bottom: 50px;
-  position: sticky;
-  margin-top: 50px;
+p {
+  text-align: left;
+  padding: 15px 0px;
+  width: 100%;
 }
 
 img {
@@ -141,11 +119,6 @@ figcaption {
   border-bottom: 1px solid #000;
 }
 
-p {
-  text-align: left;
-  padding: 15px;
-}
-
 blockquote {
   border-top: 1px solid #96031A;
   border-bottom: 1px solid #96031A;
@@ -163,6 +136,52 @@ blockquote {
   padding-top: 50px;
   border-top: 1px solid #FAA916;
 }
+
+.share {
+  margin: 0 auto;
+  padding-top: 5px;
+  padding-left: 0px;
+  text-align: center;
+}
+
+.share li {
+  display: inline;
+}
+
+footer {
+  text-align: center;
+  background-color: #000000;
+  color: #FFFFFF;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  position: sticky;
+  margin-top: 50px;
+}
+
+.carousel {
+  margin-bottom: 4rem;
+}
+
+.carousel-caption {
+  font-family: "Montserrat",Arial,sans-serif;
+  bottom: 15px;
+  background-color: #808080;
+  padding: 5px 15px;
+  height: 80px;
+  opacity: .8;
+}
+
+.carousel-item {
+  height: 600px;
+}
+.carousel-item > img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  min-width: 100%;
+  height: auto;
+}
+
 .scroll-graphic {
   position: -webkit-sticky;
   position: sticky;
