@@ -1,0 +1,155 @@
+Body {
+  font-family: "PT Serif", "Times New Roman", Times, serif;
+  font-size: 1em;
+  color: #000000;
+  font-weight: 400;
+  text-align: center;
+}
+
+#container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding-bottom: 50px;
+  text-align: center;
+  line-height: 2.5em;
+}
+
+.headline{
+  font-size: 3em;
+  font-weight: 700;
+  text-align: center;
+}
+
+/* Tophat */
+
+.nav-logo{
+color: #fff;
+margin:0 auto;
+font-weight: 700;
+text-transform: uppercase;
+}
+
+.blue{
+  color:#3a5dc2
+  }
+
+/* Splash area */
+
+.hero-container{
+  position: relative;
+  text-align: center;
+  color: #FFFFFF;
+  display: block;
+}
+
+.hero-image{
+  width: 100%;
+
+}
+
+.overlay {
+  position: absolute;
+  top: 20%;
+  width: 100%;
+  height: 500px;
+  background-color: #000;
+  opacity: .7;
+}
+
+.hero-hed{
+font-family: 'Playfair Display', serif;
+font-size: 6em;
+color: #f62a24;
+margin: 0 auto;
+padding-bottom: 100px;
+}
+
+.hero-sub{
+font-family: "Montserrat", sans-serif;
+font-size: .5em;
+
+}
+
+.byline {
+    font-size: 1em;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+@media (max-width: 800px)
+p {
+    padding-left: 20px;
+    padding-right: 10px;
+}
+
+p {
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+/* Media queries */
+
+@media(max-width:650px) {
+  p{
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+
+@media (min-width: 576px)
+.container, .container-sm {
+    max-width: 540px;
+  }
+
+  .container {
+      width: 25%;
+      padding-right: 15px;
+      padding-left: 15px;
+      margin-right: auto;
+      margin-left: auto;
+  }
+
+  ::after, ::before {
+    box-sizing: border-box;
+}
+
+div{
+  display: block;
+}
+
+body {
+    margin: 0;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #212529;
+    text-align: left;
+    background-color: #fff;
+}
+
+.footer {
+  background: #000;
+  height: 50px;
+  min-height: 100px;
+  padding-top: 25px;
+  margin-top: 100px;
+}
+
+.footer p {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+}
+
+.photo{
+  width: 100%;
+  min-width: 400px;
+}
